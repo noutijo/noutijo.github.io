@@ -12,8 +12,9 @@ button{
 
 .toast{
     position: absolute;
-    bottom: 5px;
+    bottom:10px;
     left: 10px;
+    z-index: 9;
 }
 
 /* Small devices (landscape phones, 576px and up) */
