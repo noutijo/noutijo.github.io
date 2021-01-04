@@ -12,14 +12,19 @@ button{
 
 .toast{
     position: absolute;
-    bottom:10px;
     left: 10px;
-    z-index: 9;
+    bottom: 10px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-    
+    .toast {
+        left: 0px;
+        right: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        bottom: 5px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
