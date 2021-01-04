@@ -1,0 +1,17 @@
+*{
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;
+}
+button{
+    outline: none;
+}
+
+.toast{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
