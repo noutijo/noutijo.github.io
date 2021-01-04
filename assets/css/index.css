@@ -19,11 +19,7 @@ button{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-    .toast {
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
