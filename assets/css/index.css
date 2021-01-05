@@ -17,7 +17,9 @@
     --color-1: var(--hover-color);
 }
 
-a {
+
+/*Navbar*/
+.navbar a {
     font-weight: 400;
     color: white;
 }
@@ -70,6 +72,10 @@ button {
         bottom: 0px;
         margin: 5px;
     }
+    .navbar li {
+        margin-top: 10px;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
