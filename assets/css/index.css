@@ -105,6 +105,58 @@ P {
     font-weight: 300;
 }
 
+#spin {
+    color: white;
+    font-size: 16px;
+}
+
+#spin:after {
+    content: "";
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        content: "Bonjour,";
+    }
+
+    10% {
+        content: "Hi,";
+    }
+
+    20% {
+        content: "سلام,";
+    }
+
+    30% {
+        content: "Hola,";
+    }
+
+    40% {
+        content: "你好,";
+    }
+
+    50% {
+        content: "Здравей,";
+    }
+
+    60% {
+        content: "Привет,";
+    }
+
+    70% {
+        content: "Ciao,";
+    }
+
+    80% {
+        content: "こんにちは,";
+    }
+
+    90% {
+        content: "Oi,";
+    }
+}
+
 /*Toast*/
 .toast {
     position: fixed;
