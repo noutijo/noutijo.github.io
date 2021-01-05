@@ -216,6 +216,51 @@ P {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
+/*About*/
+.about {
+    background-color: var(--main-bg);
+    min-height: auto;
+    z-index: 1;
+}
+
+.about:before {
+    display: flex;
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 12rem;
+    background-image: radial-gradient(var(--hover-color) 2px, transparent 0);
+    background-size: 20px 20px;
+    background-position: 0 0;
+    opacity: .08;
+    z-index: 1;
+}
+
+.about h1 {
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.about p {
+    text-align: justify;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.about h1:before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: -10px;
+    left: 25%;
+    background: #ff5f56;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     .toast {
@@ -254,6 +299,15 @@ P {
         width: 100%;
         height: 40%;
         transform: rotate(-70deg) translate(40%, -50%) scale(1.8);
+    }
+
+    /*About*/
+    .about h1 {
+        font-size: 40px;
+    }
+    .about h1:before {
+        width: 10px;
+        height: 10px;
     }
 
 }
