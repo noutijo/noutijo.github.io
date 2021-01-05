@@ -31,7 +31,7 @@
     background-size: 40px 40px;
     background-position: 0 0, 20px 20px;
     width: 100vw;
-    height: 130vh;
+    height: 100vh;
     padding-bottom: 10vh;
     display: flex;
     z-index: 0;
@@ -43,7 +43,7 @@
 .deform {
     position: absolute;
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     left: 0;
     top: 0;
     overflow: hidden;
@@ -162,6 +162,9 @@ P {
     position: fixed;
     left: 10px;
     bottom: 10px;
+    z-index: 100;
+    -webkit-box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
+    box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
 }
 
 .toast-header {
@@ -170,6 +173,48 @@ P {
     border-bottom: none;
 }
 
+/*Socials*/
+.socials{
+        width: 55vw;
+        height: auto;
+        margin: 0 auto;
+        background: var(--main-bg);
+        border-radius: var(--radius);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 8rem;
+        z-index: 1;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
+        box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
+}
+
+.socials::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 40px;
+    position: absolute;
+    top: 26px;
+    left: 30px;
+    background: #ff5f56;
+    box-shadow: 16px 0px 0px #ffbd2e, 32px 0px 0px #27c93f;
+}
+.socials i{
+    font-size: 20px;
+    color: rgba(255, 255, 255, .5);
+}
+.socials .icon-social{
+    padding: 30px;
+    border-radius: 5px;
+}
+.socials .icon-social:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     .toast {
@@ -190,6 +235,11 @@ P {
     .profession {
         font-size: 15px;
         font-weight: 300;
+    }
+
+    /*Socials*/
+    .socials {
+        width: 90vw;
     }
 }
 
