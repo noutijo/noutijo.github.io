@@ -175,18 +175,18 @@ P {
 }
 
 /*Socials*/
-.socials{
-        width: 55vw;
-        height: auto;
-        margin: 0 auto;
-        background: var(--main-bg);
-        border-radius: 5px;
-        align-items: center;
-        margin-bottom: 8rem;
-        z-index: 1;
-        border-radius: 5px;
-        -webkit-box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
-        box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
+.socials {
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+    background: var(--main-bg);
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 1rem;
+    z-index: 2;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
+    box-shadow: 0 80px 100px -24px rgba(0, 0, 0, .45);
 }
 
 .socials::before {
@@ -201,17 +201,21 @@ P {
     background: #ff5f56;
     box-shadow: 16px 0px 0px #ffbd2e, 32px 0px 0px #27c93f;
 }
-.socials i{
+
+.socials i {
     font-size: 20px;
     color: rgba(255, 255, 255, .5);
 }
-.socials .icon-social{
+
+.socials .icon-social {
     padding: 30px;
     border-radius: 5px;
 }
-.socials .icon-social:hover{
+
+.socials .icon-social:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     .toast {
@@ -238,6 +242,20 @@ P {
     .socials {
         width: 90vw;
     }
+
+    /*header*/
+    .deform-one {
+        transform: rotate(-22deg) translateY(-80%);
+        margin-bottom: -20%;
+        right: -40%;
+    }
+
+    .deform-two {
+        width: 100%;
+        height: 40%;
+        transform: rotate(-70deg) translate(40%, -50%) scale(1.8);
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
