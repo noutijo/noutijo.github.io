@@ -19,30 +19,58 @@
 
 /*Header*/
 .hearder {
-    height: 150vh;
     background: radial-gradient(var(--light-bg) 1px, transparent 0),
         radial-gradient(var(--light-bg) 1px, transparent 0),
         linear-gradient(180deg, var(--light-bg) 0%, var(--main-bg) 100%);
     background-size: 40px 40px, 40px 40px, 100%, 100%;
     background-position: 0 0, 20px 20px, center;
 
-    background-image: radial-gradient(rgba(255, 255, 255, .05) 1px, transparent 0),
-        radial-gradient(rgba(255, 255, 255, .05) 1px, transparent 0);
-
     background-color: var(--accent);
     background-image: radial-gradient(rgba(255, 255, 255, .1) 1px, transparent 0),
         radial-gradient(rgba(255, 255, 255, .1) 1px, transparent 0);
     background-size: 40px 40px;
-    background-position: 0 0,
-        20px 20px;
+    background-position: 0 0, 20px 20px;
     width: 100vw;
     height: 130vh;
     padding-bottom: 10vh;
-    z-index: 0;
     display: flex;
+    z-index: 0;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+}
+
+.deform {
+        position: absolute;
+        width: 100%;
+        height: 130vh;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        z-index: 0;
+}
+.deform-one {
+    background: linear-gradient(68deg, var(--accent-light) 2%, transparent 60%);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    border-bottom-left-radius: 12vw;
+    transform: rotate(-22deg) translateY(-100vh);
+    position: relative;
+    margin-bottom: 20vh;
+    right: -20vw;
+}
+.deform-two {
+    background: linear-gradient(150deg, transparent 0%, var(--accent-light) 100%);
+    width: 100%;
+    height: 40vh;
+    transform: rotate(-42deg) translate(40vh, 50vh) scale(1.8);
+    position: relative;
 }
 
 .hearder a {
@@ -58,14 +86,16 @@
 }
 
 /*profile*/
-P{
+P {
     color: white;
 }
-.name{
+
+.name {
     font-size: 30px;
     font-weight: 700;
 }
-.profession{
+
+.profession {
     font-size: 20px;
     font-weight: 300;
 }
@@ -85,13 +115,16 @@ P{
         bottom: 0px;
         margin: 5px;
     }
+
     .navbar li {
         margin-top: 10px;
     }
+
     .name {
         font-size: 15px;
         font-weight: 700;
     }
+
     .profession {
         font-size: 15px;
         font-weight: 300;
