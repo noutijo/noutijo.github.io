@@ -20,9 +20,8 @@ button{
 @media (max-width: 576px) {
     .toast {
         left: 0px;
-        right: 0px;
-        bottom: 5px;
-        margin:5px;
+        bottom: 0px;
+        margin: 5px;
     }
 }
 
