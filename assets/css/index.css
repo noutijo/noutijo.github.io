@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
+    padding: 0;
     font-weight: 400;
 }
 
@@ -30,9 +31,9 @@
         radial-gradient(rgba(255, 255, 255, .1) 1px, transparent 0);
     background-size: 40px 40px;
     background-position: 0 0, 20px 20px;
-    width: 100vw;
-    height: 100vh;
-    padding-bottom: 10vh;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
     display: flex;
     z-index: 0;
     flex-direction: column;
@@ -43,7 +44,7 @@
 .deform {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     left: 0;
     top: 0;
     overflow: hidden;
@@ -58,20 +59,20 @@
 .deform-one {
     background: linear-gradient(68deg, var(--accent-light) 2%, transparent 60%);
     width: 100%;
-    height: 60vh;
+    height: 60%;
     display: flex;
-    border-bottom-left-radius: 12vw;
-    transform: rotate(-22deg) translateY(-100vh);
+    border-bottom-left-radius: 12%;
+    transform: rotate(-22deg) translateY(-100%);
     position: relative;
-    margin-bottom: 20vh;
-    right: -20vw;
+    margin-bottom: 20%;
+    right: -20%;
 }
 
 .deform-two {
     background: linear-gradient(150deg, transparent 0%, var(--accent-light) 100%);
     width: 100%;
-    height: 40vh;
-    transform: rotate(-42deg) translate(40vh, 50vh) scale(1.8);
+    height: 40%;
+    transform: rotate(-42deg) translate(40%, 50%) scale(1.8);
     position: relative;
 }
 
@@ -179,12 +180,8 @@ P {
         height: auto;
         margin: 0 auto;
         background: var(--main-bg);
-        border-radius: var(--radius);
-        display: flex;
-        justify-content: space-between;
+        border-radius: 5px;
         align-items: center;
-        flex-direction: column;
-        position: relative;
         margin-bottom: 8rem;
         z-index: 1;
         border-radius: 5px;
