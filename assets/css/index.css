@@ -354,7 +354,7 @@ P {
     width: 10px;
     height: 10px;
     background: #037c54;
-    border-radius: 50%;
+    border-radius: 3px;
 }
 
 .resume .title {
