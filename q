@@ -1,0 +1,209 @@
+[33mcommit f6a14448f0fb3598ad700e90fe4852cff53872b1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 15:36:32 2021 +0100
+
+    Change toat showing to 3s
+
+[33mcommit d3d261f3a2b834c5f9b5d481e8b71b075f3376c7[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 15:17:00 2021 +0100
+
+    Change toat showing to 4s
+
+[33mcommit 654acef71d71727c76fc99b5e25823abe8a40494[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 15:11:26 2021 +0100
+
+    Add SmoothScroll effect
+
+[33mcommit b6c1c1d68d6ea9022e4f8553099fc0cbd364ee0b[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 13:23:23 2021 +0100
+
+    Add mail, contact and location on about part
+
+[33mcommit 82b5eaafda52ed3c3029cf753028de597b09b2ea[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 12:16:27 2021 +0100
+
+    Add orthers skills on about part
+
+[33mcommit 3ca6087b07522383f9f47791676bae3ff47bde0d[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 12:14:09 2021 +0100
+
+    Make about strong words
+
+[33mcommit 9fa38ef1a8b1aa893709b28b44627105a0642ecb[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Wed Jan 6 11:57:49 2021 +0100
+
+    Make about responsive
+
+[33mcommit 48ba3888d822628b10f768fa562041f6f0568e3f[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 18:12:26 2021 +0100
+
+    Add about
+
+[33mcommit ca324dc3d1c96d088dae6cf93cfa02480c8f4fc6[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 16:55:24 2021 +0100
+
+    Adjust socials display
+
+[33mcommit ec9c231754efc36b80c7452cb12c967357ce8feb[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 16:31:15 2021 +0100
+
+    Using % for all
+
+[33mcommit 2d62552ef9966be400f70671409f88f2eea0a74a[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 16:03:52 2021 +0100
+
+    Add socials
+
+[33mcommit 069180b7f244bb2909f6081bb485253038b83061[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 12:07:27 2021 +0100
+
+    Adopt shadow to shadow-lg
+
+[33mcommit feff4e3a1d51df2664b87063d88ceea6f7f09575[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 12:02:31 2021 +0100
+
+    Translate Hello in miltiple language
+
+[33mcommit 5a0e5b7708601a75aba99a94312a27d9a8c2763e[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 11:11:10 2021 +0100
+
+    Bring some effect to toast
+
+[33mcommit c0e9f460de120d95ac641df502c5df9e77e768c9[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 10:39:28 2021 +0100
+
+    Make no outline on menu logo navbar
+
+[33mcommit a7486fab18d393a309cbbd25aca37b05d756dde3[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 10:25:19 2021 +0100
+
+    Make toast animate
+
+[33mcommit dfe33c63fca2490e73daec127a529c847dbc1961[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 10:21:11 2021 +0100
+
+    change profile
+
+[33mcommit 5789e57f81c981c27512491c6784352c020fcc0d[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 09:14:58 2021 +0100
+
+    change profile
+
+[33mcommit e2f6cc59e44571de063ffff72d140708c8b7f6db[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 04:39:50 2021 +0100
+
+    add animate.css
+
+[33mcommit 832c31a8f63539172628fd6bf28658541403bfe0[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 04:18:43 2021 +0100
+
+    add @
+
+[33mcommit 0a103319cf4089298bc4ef91979f9635259476f1[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 04:11:01 2021 +0100
+
+    add affect bg
+
+[33mcommit c77b9ca250102fb0571303dfbf368a11fc35514e[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 03:21:19 2021 +0100
+
+    add name and prefession
+
+[33mcommit c4f1f64a487c0e74d006fb6001431c2338edcf74[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 03:04:04 2021 +0100
+
+    add avatar
+
+[33mcommit 9659795fd8a8bb17fcf91cf64fcb7320b7ad5fb9[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 02:33:59 2021 +0100
+
+    work on navbar
+
+[33mcommit 77f053c9857d6fdd68212d3bbd15e3de0544ea2d[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 02:15:56 2021 +0100
+
+    Add navbar
+
+[33mcommit 55cf3d2ac8a053ad577cccef1512f31007046885[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 01:11:08 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit cc887d22f1669e846048984b5b849fcfc122ca18[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 01:07:29 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit 080b8ed372f463c475f80190385d5e81871faad4[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 00:57:33 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit 03102d67387c2ba8114bf696c9b32717a7098e7f[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 00:51:00 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit 2bafded6c8f4e9eea7d1171e116fc85a6168ded6[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 00:33:15 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit 019ee6fa531a363eb019498313da257cdd4f16eb[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 00:29:26 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit 610d845afda2f85e5bb5455cbe75c0c818f427d9[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 00:17:29 2021 +0100
+
+    Update toast Effect position
+
+[33mcommit 47880e6333c4bfdc2a3bcf30a854f0f2f4b7bfd5[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Tue Jan 5 00:12:13 2021 +0100
+
+    Update toast Effect
+
+[33mcommit ec0ed167f86f23b2b855f71dbc48a9aa795b3524[m
+Author: oreol Noumodong <oreolnoumodong@gmail.com>
+Date:   Mon Jan 4 23:58:45 2021 +0100
+
+    Add icons link
+
+[33mcommit 739845630792a9d29d3838908c7edc9699d1a094[m
+Author: Noumodong Tindjong Junior-Oreol <40934477+noutijo@users.noreply.github.com>
+Date:   Sun Jan 3 01:35:49 2021 +0100
+
+    Create index.html
