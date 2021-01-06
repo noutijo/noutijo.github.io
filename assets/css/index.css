@@ -3,6 +3,7 @@
     font-size: 14px;
     padding: 0;
     font-weight: 400;
+    color: white;
 }
 
 :root {
@@ -219,7 +220,8 @@ P {
 /*About*/
 .about {
     background-color: var(--main-bg);
-    min-height: auto;
+    height: auto;
+    width: 100%;
     z-index: 1;
 }
 
@@ -241,6 +243,7 @@ P {
     text-decoration: underline;
     font-weight: 700;
     font-size: 50px;
+    margin-top: calc(100%-50%);
 }
 
 .about p {
@@ -261,6 +264,18 @@ P {
     left: 30%;
     background: #ff5f56;
 }
+.about .about-contact i,
+.about .about-contact p{
+    font-weight: 200;
+    font-size: 13px;
+}
+.about .about-contact i{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     .toast {
