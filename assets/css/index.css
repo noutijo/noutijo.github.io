@@ -18,13 +18,16 @@
     --scpc: var(--hover-color);
     --color-1: var(--hover-color);
 }
-::selection{
+
+::selection {
     background-color: var(--light-bg);
     color: white;
 }
-#portfolio-design{
+
+#portfolio-design {
     display: none;
 }
+
 /*Header*/
 .hearder {
     background: radial-gradient(var(--light-bg) 1px, transparent 0),
@@ -495,8 +498,41 @@ P {
 .porfolio .make-gray-bg {
     background-color: var(--light-bg);
 }
-.portfolio-design-block{
+
+.portfolio-design-block {
     display: none;
+}
+
+/*Hiring Me*/
+/*Sercices*/
+.hireme {
+    background-color: var(--accent-light);
+}
+
+.hireme:before {
+    display: flex;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 12rem;
+    background-image: radial-gradient(var(--hover-color) 1px, transparent 0);
+    background-size: 20px 20px;
+    background-position: 0 0;
+    opacity: .08;
+    z-index: 1;
+}
+
+.hireme h6 {
+    font-weight: 200;
+}
+
+.hireme a {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px 15px 50px;
+    background-color: var(--main-bg);
+    border-radius: 40px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
