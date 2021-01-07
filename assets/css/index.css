@@ -504,7 +504,6 @@ P {
 }
 
 /*Hiring Me*/
-/*Sercices*/
 .hireme {
     background-color: var(--accent-light);
 }
@@ -519,7 +518,7 @@ P {
     background-size: 20px 20px;
     background-position: 0 0;
     opacity: .08;
-    z-index: 1;
+    z-index: 0;
 }
 
 .hireme h6 {
@@ -533,6 +532,17 @@ P {
     padding: 15px 50px 15px 50px;
     background-color: var(--main-bg);
     border-radius: 40px;
+}
+
+/*footer*/
+.footer {
+    background-color: var(--main-bg);
+}
+.footer p{
+    color: rgba(255, 255, 255, .3);
+}
+.footer a{
+    color: rgba(255, 255, 255, .3);
 }
 
 /* Small devices (landscape phones, 576px and up) */
