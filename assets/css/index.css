@@ -432,7 +432,7 @@ P {
     background-size: 20px 20px;
     background-position: 0 0;
     opacity: .08;
-    z-index: 1;
+    z-index: 0;
 }
 
 .porfolio h1 {
@@ -485,7 +485,6 @@ P {
     font-weight: 400;
     border-radius: 40px;
     text-decoration: none;
-    cursor: pointer;
 }
 
 .porfolio .make-green-bg {
