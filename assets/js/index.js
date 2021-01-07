@@ -1,9 +1,12 @@
 
 $(document).ready(function () {
     
-$("#show-portfolio-design").on('click', function () {
+    $("#show-portfolio-design").on('click', function () {
+
+
     $('#portfolio-web').hide();
     $('#portfolio-design').show();
+
 
     $('#show-portfolio-design').removeClass('make-gray-bg');
     $('#show-portfolio-design').addClass('make-green-bg');
@@ -13,6 +16,8 @@ $("#show-portfolio-design").on('click', function () {
 
 
 $("#show-portfolio-web").on('click', function () {
+
+
     $('#portfolio-web').show();
     $('#portfolio-design').hide();
 
