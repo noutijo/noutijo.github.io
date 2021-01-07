@@ -377,16 +377,17 @@
     <!-- Porfolio -->
     <div class="container-fluid porfolio">
         <div class="row">
-            <div id="porfolio" class="col-12 text-center mt-5 p-lg-5 mb-lg-1">
-                <h1>Porfolio</h1>
+            <div id="porfolio" class="col-12 text-center mt-5 p-lg-5">
+                <h1>Portfolio</h1>
             </div>
-            <div  class="col-12 text-center mt-1 p-lg-5 mb-lg-1">
-                <h6><span class="portfolio-web">🌍 Web</span> <span class="portfolio-design">🍕 Dessign</span></h6>
+            <div  class="col-12 text-center my-4 my-lg-0 p-lg-5">
+                <h6><span id="show-portfolio-web" class="portfolio-web make-green-bg">🌍 Web</span> <span id="show-portfolio-design" class="portfolio-design make-gray-bg">🍕 Dessign</span></h6>
             </div>
             <div class="col-12 col-lg-1"></div>
             <div class="col-12 col-md-12 col-lg-10 mt-3">
 
-                <div class="row row-cols-1 row-cols-md-3">
+                <!-- Web Portfolio -->
+                <div id="portfolio-web" class="row row-cols-1 row-cols-md-3">
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card">
                             <img src="./assets/imgs/comba.png" class="card-img-top" alt="...">
@@ -455,6 +456,27 @@
                     </div>
                 </div>
 
+                <!-- Design Porfolio -->
+
+                <div id="portfolio-design" class="row row-cols-1 row-cols-md-3">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./assets/imgs/prototye.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">comba <a href="http://comba.netlify.app/" class="text-center">Live View ↗</a>
+                                </h5>
+                                <p class="card-text mt-3">comba is an online game written JavaScript in which 2 players play each turn
+                                    to compete.</p>
+                                <p class="mt-3">
+                                    <span class="text-center">JavaScript</span>
+                                    <span class="text-center">ES6</span>
+                                    <span class="text-center">HTML | CSS </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="col-12 col-lg-1"></div>
         </div>
@@ -500,5 +522,6 @@
     $('.toast').toast('show');
     var scroll = new SmoothScroll('a[href*="#"]');
 </script>
+<script src="./assets/js/index.js"></script>
 
 </html>

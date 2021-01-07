@@ -18,7 +18,13 @@
     --scpc: var(--hover-color);
     --color-1: var(--hover-color);
 }
-
+::selection{
+    background-color: var(--light-bg);
+    color: white;
+}
+#portfolio-design{
+    display: none;
+}
 /*Header*/
 .hearder {
     background: radial-gradient(var(--light-bg) 1px, transparent 0),
@@ -469,16 +475,25 @@ P {
     color: rgba(255, 255, 255, .5);
     padding: 5px 15px 5px 15px;
 }
+
 .porfolio .portfolio-web,
 .porfolio .portfolio-design {
     font-size: 14px;
     margin-left: 5px;
     color: rgba(255, 255, 255, 1);
     padding: 10px 30px 10px 30px;
-     font-weight: 400;
-     border-radius: 40px;
-     text-decoration: none;
-     background-color: var(--light-bg);
+    font-weight: 400;
+    border-radius: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.porfolio .make-green-bg {
+    background-color: rgba(80, 165, 144, 0.2);
+}
+
+.porfolio .make-gray-bg {
+    background-color: var(--light-bg);
 }
 
 /* Small devices (landscape phones, 576px and up) */
