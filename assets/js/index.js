@@ -4,8 +4,8 @@ $(document).ready(function () {
     $("#show-portfolio-design").on('click', function () {
 
 
-    $('#portfolio-web').hide();
-    $('#portfolio-design').show();
+    $('.portfolio-web-block').hide();
+    $('.portfolio-design-block').show();
 
 
     $('#show-portfolio-design').removeClass('make-gray-bg');
@@ -18,8 +18,8 @@ $(document).ready(function () {
 $("#show-portfolio-web").on('click', function () {
 
 
-    $('#portfolio-web').show();
-    $('#portfolio-design').hide();
+    $('.portfolio-web-block').show();
+    $('.portfolio-design-block').hide();
 
     $('#show-portfolio-design').removeClass('make-green-bg');
     $('#show-portfolio-design').addClass('make-gray-bg');

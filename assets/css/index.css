@@ -485,6 +485,7 @@ P {
     font-weight: 400;
     border-radius: 40px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .porfolio .make-green-bg {
@@ -493,6 +494,9 @@ P {
 
 .porfolio .make-gray-bg {
     background-color: var(--light-bg);
+}
+.portfolio-design-block{
+    display: none;
 }
 
 /* Small devices (landscape phones, 576px and up) */
