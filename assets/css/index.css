@@ -6,7 +6,7 @@
     color: white;
 }
 
-body {
+body,html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -572,6 +572,10 @@ P {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+
+    body {
+        overflow-x: hidden;
+    }
     .toast {
         left: 0px;
         bottom: 0px;
@@ -618,6 +622,11 @@ P {
     .about h1:before {
         width: 10px;
         height: 10px;
+    }
+
+    /*navbar*/
+    .make-navbar-bg {
+        padding-top: 30px;
     }
 
 }
