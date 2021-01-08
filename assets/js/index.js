@@ -33,9 +33,7 @@ $("#show-portfolio-web").on('click', function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 40) {
             $('#navbar_top').addClass("fixed-top");
-            $('#navbar_top').addClass("make-navbar-bg");
         } else {
             $('#navbar_top').removeClass("fixed-top");
-            $('#navbar_top').removeClass("make-navbar-bg");
         }
     });
