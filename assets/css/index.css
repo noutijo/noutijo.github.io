@@ -6,10 +6,12 @@
     color: white;
 }
 
-body,
-html {
-    overflow-x: hidden!important;
-    box-sizing: border-box;
+
+body,html {
+    margin: 0;
+}
+body {
+    padding: 0;
 }
 
 :root {
@@ -355,7 +357,7 @@ P {
     display: flex;
     content: "";
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 12rem;
     background-image: radial-gradient(var(--hover-color) 1px, transparent 0);
     background-size: 20px 20px;
@@ -415,7 +417,7 @@ P {
     display: flex;
     content: "";
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 12rem;
     background-image: radial-gradient(var(--hover-color) 1px, transparent 0);
     background-size: 20px 20px;
@@ -452,7 +454,7 @@ P {
     display: flex;
     content: "";
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 12rem;
     background-image: radial-gradient(var(--hover-color) 1px, transparent 0);
     background-size: 20px 20px;
@@ -535,7 +537,7 @@ P {
     display: flex;
     content: "";
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 12rem;
     background-image: radial-gradient(var(--hover-color) 1px, transparent 0);
     background-size: 20px 20px;
@@ -572,10 +574,6 @@ P {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-
-    body {
-        overflow-x: hidden !important;
-    }
     .toast {
         left: 0px;
         bottom: 0px;
