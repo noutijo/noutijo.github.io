@@ -8,7 +8,7 @@
 
 body,
 html {
-    overflow-x: hidden;
+    overflow-x: hidden!important;
     box-sizing: border-box;
 }
 
@@ -574,7 +574,7 @@ P {
 @media (max-width: 576px) {
 
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .toast {
         left: 0px;
