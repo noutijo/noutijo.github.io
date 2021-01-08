@@ -6,12 +6,10 @@
     color: white;
 }
 
-
-body,html {
-    margin: 0;
-}
-body {
-    padding: 0;
+body,
+html {
+    overflow-x: hidden!important;
+    box-sizing: border-box;
 }
 
 :root {
@@ -574,6 +572,10 @@ P {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
     .toast {
         left: 0px;
         bottom: 0px;
