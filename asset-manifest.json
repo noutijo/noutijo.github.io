@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca5ccde7.chunk.css",
+    "main.js": "/static/js/main.be936769.chunk.js",
+    "main.js.map": "/static/js/main.be936769.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7edda302.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7edda302.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.2e5774c7.chunk.js": "/static/js/2.2e5774c7.chunk.js",
+    "static/js/2.2e5774c7.chunk.js.map": "/static/js/2.2e5774c7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.ca5ccde7.chunk.css.map": "/static/css/main.ca5ccde7.chunk.css.map",
+    "static/js/2.2e5774c7.chunk.js.LICENSE.txt": "/static/js/2.2e5774c7.chunk.js.LICENSE.txt",
+    "static/media/chaletsandcaviar.b9e2a3a5.PNG": "/static/media/chaletsandcaviar.b9e2a3a5.PNG",
+    "static/media/comba.9721e8da.png": "/static/media/comba.9721e8da.png",
+    "static/media/desktop-app.68ca2fac.webp": "/static/media/desktop-app.68ca2fac.webp",
+    "static/media/getquote.14bc7911.png": "/static/media/getquote.14bc7911.png",
+    "static/media/me.84f018b6.png": "/static/media/me.84f018b6.png",
+    "static/media/menu.fcc5b758.png": "/static/media/menu.fcc5b758.png",
+    "static/media/prototye.8f039853.webp": "/static/media/prototye.8f039853.webp",
+    "static/media/seo.59c1b182.PNG": "/static/media/seo.59c1b182.PNG",
+    "static/media/shppy01.87606aea.png": "/static/media/shppy01.87606aea.png",
+    "static/media/smallD.b021a81d.png": "/static/media/smallD.b021a81d.png",
+    "static/media/watchoutsiteatboston.65081df5.PNG": "/static/media/watchoutsiteatboston.65081df5.PNG",
+    "static/media/web-app.acb6831e.jpg": "/static/media/web-app.acb6831e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7edda302.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.2e5774c7.chunk.js",
+    "static/css/main.ca5ccde7.chunk.css",
+    "static/js/main.be936769.chunk.js"
+  ]
+}
